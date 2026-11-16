@@ -8,11 +8,11 @@ published: false
 
 ## はじめに
 
-Obsidian で作業するとき、タイマーは別アプリ、BGM はブラウザ、タスクはノート、と行き来していました。それをサイドパネルひとつにまとめたくて作ったのが「Zen Zone」です。
+ポモドーロタイマー、作業用 BGM、タスク管理を、Obsidian のサイドパネルひとつにまとめるプラグイン「Zen Zone」を作りました。
 
 https://github.com/chacha260/obsidian-zen-zone
 
-<img width="484" height="814" alt="image" src="https://github.com/user-attachments/assets/2c1a4b1e-fb70-4433-9f1f-45f36c0506d7" />
+![Zen Zone の画面](https://github.com/user-attachments/assets/2c1a4b1e-fb70-4433-9f1f-45f36c0506d7 =484x)
 
 できることは 3 つです。
 
@@ -22,27 +22,23 @@ https://github.com/chacha260/obsidian-zen-zone
 
 タイマーが切り替わるたびに BGM も切り替わるので、「集中のときはこの曲、休憩のときはこの曲」を一度決めれば、あとは開始ボタンを押すだけです。
 
-【作った動機を 2〜3 文。例:ブラウザで YouTube を開くと別の動画に気を取られるので、Obsidian から出ずに音だけ流したかった、など】
+職場では、イヤホンをして音楽に浸るわけにはいきません。それでも、YouTube の作業用 BGM や YouTube Music のプレイリストを、仕事の邪魔にならない形で流しておきたい。
 
-【AI(Claude Code)を使って開発した旨を書く場合はここに 1〜2 文】
+かといって、ブラウザで YouTube を開いたままにするのは気が引けますし、タブを行き来するたびに集中も途切れます。それなら、いつも開いている Obsidian の中で完結させてしまおう、というのが出発点です。
+
+開発には Anthropic の Claude Code を使いました。設計の相談から実装、コミュニティプラグインへの申請対応まで、対話しながら進めています。
 
 ## インストール
 
 Obsidian 1.13.0 以降が必要です。デスクトップとモバイルの両方で動きます。
 
-【コミュニティプラグインとして公開済みの場合】
 **設定 → コミュニティプラグイン → 閲覧** で「Zen Zone」を検索し、インストールして有効化します。
-
-【審査中の場合は、上を消して次の手順を残す】
-1. [最新のリリース](https://github.com/chacha260/obsidian-zen-zone/releases/latest)から `main.js`・`manifest.json`・`styles.css` をダウンロードします。
-2. 保管庫の `.obsidian/plugins/zen-zone/` フォルダに置きます。
-3. Obsidian を再読み込みし、**設定 → コミュニティプラグイン** で「Zen Zone」を有効にします。
 
 有効にしたら、リボンの ⚡ アイコンでパネルが開きます。
 
 ## タイマー
 
-<img width="466" height="365" alt="image" src="https://github.com/user-attachments/assets/3bcabce5-46ee-4855-a480-b386ee00e2c2" />
+![Zen Zone の画面](https://github.com/user-attachments/assets/3bcabce5-46ee-4855-a480-b386ee00e2c2 =466x)
 
 「集中を開始」を押すと、集中 → 小休憩 → 集中 → … と進み、最後のサイクルは大休憩で終わります。
 
@@ -59,7 +55,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップとモバイルの両�
 
 ## BGM
 
-<img width="458" height="183" alt="image" src="https://github.com/user-attachments/assets/0818562a-996a-4994-93a3-e654237bc4ee" />
+![Zen Zone の画面](https://github.com/user-attachments/assets/0818562a-996a-4994-93a3-e654237bc4ee =458x)
 
 トラックには 2 種類を登録できます。
 
@@ -95,7 +91,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップとモバイルの両�
 
 ## タスク
 
-<img width="473" height="261" alt="image" src="https://github.com/user-attachments/assets/238a4bb8-2431-4533-a146-93e4b221c5a1" />
+![Zen Zone の画面](https://github.com/user-attachments/assets/238a4bb8-2431-4533-a146-93e4b221c5a1 =473x)
 
 パネルの上に「現在のタスク」がひとつ表示され、その下にバックログが並びます。
 
@@ -155,7 +151,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップとモバイルの両�
 
 ## 使い方の例
 
-わたしの使い方です。【実際の使い方に合わせて書き換えてください】
+一日の流れは、たとえばこうなります。
 
 1. 朝、デイリーノートに今日やることをチェックボックスで書く。
 2. Zen Zone のパネルで取り込みボタンを押し、それぞれに見積もりを付ける。
@@ -170,5 +166,3 @@ Obsidian 1.13.0 以降が必要です。デスクトップとモバイルの両�
 不具合や要望は、GitHub の Issue でお知らせください。
 
 https://github.com/chacha260/obsidian-zen-zone
-
-【申請の体験記を別記事にする場合は、ここにリンクを置く】
