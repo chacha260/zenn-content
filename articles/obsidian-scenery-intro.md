@@ -12,7 +12,7 @@ Obsidian のワークスペースの背後に、動く壁紙を表示するプ�
 
 https://github.com/chacha260/obsidian-scenery
 
-<!-- 画像: Obsidian で壁紙を表示している全体のスクリーンショット(動きが分かる GIF だとなお良いです) -->
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/35b72293-e4af-485e-a4ac-f94738d888bb" />
 
 できることは大きく 3 つです。
 
@@ -45,7 +45,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップ版のみ対応して�
 
 ## 基本の使い方
 
-<!-- 画像: 設定画面のライブラリ(サムネイルが並んでいるところ)のスクリーンショット -->
+<img width="747" height="794" alt="image" src="https://github.com/user-attachments/assets/85bb929f-6ef7-442e-811b-a6d0a5a22ffc" />
 
 **設定 → Scenery** を開くと、壁紙の一覧(ライブラリ)があります。見出しの「＋」ボタンを押すと、メニューから追加方法を選べます。
 
@@ -85,7 +85,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップ版のみ対応して�
 
 ## シーン:コードを書かずに壁紙を作る
 
-<!-- 画像: シーンエディタを開いているスクリーンショット -->
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/29464a5e-9aeb-487c-b339-2ee72b63d1a5" />
 
 コマンド「Scenery: シーンを作成」を実行すると、右サイドバーにシーンエディタが開きます。編集中のシーンがそのまま壁紙として表示されるので、実物を見ながら調整できます。
 
