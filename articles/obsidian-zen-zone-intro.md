@@ -3,7 +3,7 @@ title: "Obsidian の中でポモドーロ・BGM・タスクを完結させるプ
 emoji: "🧘"
 type: "idea"
 topics: ["obsidian", "ポモドーロ", "タスク管理", "個人開発", "生産性"]
-published: false
+published: true
 ---
 
 ## はじめに
