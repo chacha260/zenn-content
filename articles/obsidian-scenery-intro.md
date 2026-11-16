@@ -3,7 +3,7 @@ title: "Obsidian に動く壁紙を表示するプラグイン「Scenery」を�
 emoji: "🖼️"
 type: "idea"
 topics: ["obsidian", "壁紙", "個人開発", "javascript", "カスタマイズ"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -12,7 +12,7 @@ Obsidian のワークスペースの背後に、動く壁紙を表示するプ�
 
 https://github.com/chacha260/obsidian-scenery
 
-<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/35b72293-e4af-485e-a4ac-f94738d888bb" />
+![Scenery で壁紙を表示した Obsidian](https://github.com/user-attachments/assets/35b72293-e4af-485e-a4ac-f94738d888bb)
 
 できることは大きく 3 つです。
 
@@ -45,7 +45,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップ版のみ対応して�
 
 ## 基本の使い方
 
-<img width="747" height="794" alt="image" src="https://github.com/user-attachments/assets/85bb929f-6ef7-442e-811b-a6d0a5a22ffc" />
+![設定画面の壁紙ライブラリ](https://github.com/user-attachments/assets/85bb929f-6ef7-442e-811b-a6d0a5a22ffc =600x)
 
 **設定 → Scenery** を開くと、壁紙の一覧(ライブラリ)があります。見出しの「＋」ボタンを押すと、メニューから追加方法を選べます。
 
@@ -85,7 +85,7 @@ Obsidian 1.13.0 以降が必要です。デスクトップ版のみ対応して�
 
 ## シーン:コードを書かずに壁紙を作る
 
-<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/29464a5e-9aeb-487c-b339-2ee72b63d1a5" />
+![シーンエディタで壁紙を編集しているところ](https://github.com/user-attachments/assets/29464a5e-9aeb-487c-b339-2ee72b63d1a5)
 
 コマンド「Scenery: シーンを作成」を実行すると、右サイドバーにシーンエディタが開きます。編集中のシーンがそのまま壁紙として表示されるので、実物を見ながら調整できます。
 
@@ -226,10 +226,10 @@ https://chacha260.github.io/obsidian-scenery/
 
 Wallpaper Engine の壁紙のうち、種類が **Web** のものは、フォルダごと保管庫にコピーして「＋ → Vault のフォルダ」から追加できます。`project.json` に書かれた設定項目(スライダー、色、チェックボックスなど)も、設定画面に表示されます。
 
-種類が **Video** のものは、フォルダの中の動画ファイルをそのまま壁紙にできます。
+種類が **Video** のものは、フォルダの中の動画ファイル(mp4 など)をそのまま壁紙にできます。私も Workshop の動画をこの方法で使っています。
 
 :::message alert
-- この機能は実験的です。公開されている仕様に沿って実装したもので、作品ごとの動作確認はできていません。動かないものもあります。
+- Web 形式の読み込みは実験的です。公開されている仕様に沿って実装したもので、作品によっては動かないものがあります。
 - 音に反応する壁紙は動きません。Scene 形式と Application 形式には対応していません。
 - Workshop の作品は作者に権利があります。自分で使う範囲に留めてください。
 :::
